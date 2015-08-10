@@ -21,9 +21,15 @@ When the script will run it will create some folders as follows:
 
 Change:
 <code>
-  <b>sqlHost = 'localhost';</b><br/>
-  <b>sqlUser = 'username';</b><br/>
+
+  <b>sqlHost = 'localhost';</b>
+  
+  <b>sqlUser = 'username';</b>
+  
   <b>sqlPsw	= 'password';</b>
+
+  <b>path = "/var/www"; <b/>
+  
 </code>
 with your settings.
 
