@@ -28,7 +28,7 @@ Change:
   
   <b>sqlPsw	= 'password';</b>
 
-  <b>path = "/var/www"; <b/>
+  <b>path = "/var/www"; </b>
   
 </code>
 with your settings.
