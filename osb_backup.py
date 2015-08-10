@@ -8,10 +8,14 @@ sqlHost = 'localhost';
 sqlUser = 'username';
 sqlPsw	= 'password';
 
+path = "/var/www";
+
 backupDir = "backup";
 
 now=time.strftime("%Y%m%d")
 
+#run the script in the path provided
+os.chdir(path)
 
 #create backup dir
 if not (os.path.isdir(backupDir)):
